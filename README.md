@@ -45,7 +45,7 @@ Command Line Tools or Xcode are only required when building from source.
 
 For normal users, the intended flow is:
 
-1. Download `QuotaHalo.app.zip` from GitHub Releases.
+1. Download [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) from GitHub Releases.
 2. Unzip it.
 3. Drag `QuotaHalo.app` to `Applications`.
 4. Double-click the app.
@@ -85,7 +85,7 @@ ChatGPT login is recommended for quota reading. API-key-only logins may not expo
 
 ### For Release Users
 
-1. Download `QuotaHalo.app.zip` from Releases.
+1. Download [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) from Releases.
 2. Drag the app to `Applications`.
 3. Double-click it.
 4. Open `Setup...` from the menu bar if the widget says it cannot read quota.

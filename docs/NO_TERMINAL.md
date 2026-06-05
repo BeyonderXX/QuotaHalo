@@ -4,7 +4,7 @@ This document describes the intended non-developer flow.
 
 ## Install
 
-1. Download `QuotaHalo.app.zip` from GitHub Releases.
+1. Download [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) from GitHub Releases.
 2. Unzip it.
 3. Drag `QuotaHalo.app` to `Applications`.
 4. Double-click it.

@@ -39,7 +39,7 @@
 
 普通用户推荐走 GitHub Releases：
 
-1. 下载 `QuotaHalo.app.zip`。
+1. 下载 [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip)。
 2. 解压。
 3. 把 `QuotaHalo.app` 拖进 `Applications`。
 4. 双击打开。
