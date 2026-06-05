@@ -1,6 +1,32 @@
 # QuotaHalo
 
-一个 macOS 透明玻璃桌面小组件，用来查看 Codex 用量余量。
+![macOS](https://img.shields.io/badge/macOS-13%2B-black)
+![Swift](https://img.shields.io/badge/Swift-5.9-orange)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Codex](https://img.shields.io/badge/Codex-usage%20widget-00d4ff)
+
+**QuotaHalo 是一个 macOS 透明玻璃桌面小组件，用来一眼查看 Codex 用量余量。**
+
+它会显示 **每 5 小时** 和 **每周** 两个 Codex 配额窗口，包括余量百分比和重置时间；不需要用户提供 API key，也不会保存 OpenAI token。
+
+[下载 QuotaHalo.app.zip](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) · [English README](README.md) · [认证说明](docs/AUTHENTICATION.md)
+
+关键词：`Codex usage`、`Codex quota`、`macOS widget`、`desktop widget`、`glass widget`、`ChatGPT Codex`、`OpenAI Codex`
+
+## 预览
+
+| English | 中文 |
+| --- | --- |
+| ![English preview](assets/preview-en.png) | ![Chinese preview](assets/preview-zh-Hans.png) |
+
+## 功能速览
+
+- 显示 Codex 每 5 小时余量和重置时间。
+- 显示 Codex 每周余量和重置时间。
+- 作为透明玻璃小组件停留在 macOS 桌面。
+- 支持 English 和中文。
+- 使用官方 Codex 本地登录/app-server 流程。
+- 不索要、不保存、不打印、不上传 OpenAI 凭据。
 
 它会显示 Codex 本地 app-server 返回的两个窗口：
 
@@ -10,12 +36,6 @@
 这个项目不实现自己的 OpenAI 登录，不保存 token，也不直接请求 OpenAI API。它只会启动本机已安装的 `codex`，通过 `codex app-server --stdio` 读取 `account/rateLimits/read`。
 
 > 非官方项目，与 OpenAI 无隶属关系。
-
-## 预览
-
-| English | 中文 |
-| --- | --- |
-| ![English preview](assets/preview-en.png) | ![Chinese preview](assets/preview-zh-Hans.png) |
 
 ## 图标说明
 

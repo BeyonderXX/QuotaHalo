@@ -1,8 +1,34 @@
 # QuotaHalo
 
-A tiny macOS glass desktop widget for watching your Codex usage limits.
+![macOS](https://img.shields.io/badge/macOS-13%2B-black)
+![Swift](https://img.shields.io/badge/Swift-5.9-orange)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Codex](https://img.shields.io/badge/Codex-usage%20widget-00d4ff)
 
-It shows the two Codex quota windows exposed by the local Codex app-server:
+**QuotaHalo is a glassy macOS desktop widget for tracking Codex usage limits at a glance.**
+
+It shows your **5-hour** and **weekly** Codex quota windows, including remaining percentage and reset time, without asking for API keys or storing OpenAI tokens.
+
+[Download QuotaHalo.app.zip](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) · [中文说明](README.zh-CN.md) · [Authentication model](docs/AUTHENTICATION.md)
+
+Keywords: `Codex usage`, `Codex quota`, `macOS widget`, `desktop widget`, `glass widget`, `ChatGPT Codex`, `OpenAI Codex`
+
+## Preview
+
+| English | Simplified Chinese |
+| --- | --- |
+| ![English preview](assets/preview-en.png) | ![Chinese preview](assets/preview-zh-Hans.png) |
+
+## What It Does
+
+- Shows 5-hour Codex quota remaining and reset time.
+- Shows weekly Codex quota remaining and reset time.
+- Runs as a compact transparent glass widget on the macOS desktop.
+- Supports English and Simplified Chinese.
+- Uses the official local Codex login/app-server flow.
+- Does not ask for, store, print, or upload OpenAI credentials.
+
+The widget reads the two Codex quota windows exposed by the local Codex app-server:
 
 - 5-hour remaining quota and reset time
 - Weekly remaining quota and reset time
@@ -10,12 +36,6 @@ It shows the two Codex quota windows exposed by the local Codex app-server:
 The app is intentionally small: no account database, no token storage, no network client of its own. It starts the installed `codex` executable locally and asks its app-server for `account/rateLimits/read`.
 
 > Unofficial project. Not affiliated with OpenAI.
-
-## Preview
-
-| English | Simplified Chinese |
-| --- | --- |
-| ![English preview](assets/preview-en.png) | ![Chinese preview](assets/preview-zh-Hans.png) |
 
 Generate a preview image locally:
 
