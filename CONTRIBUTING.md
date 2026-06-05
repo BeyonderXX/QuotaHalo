@@ -4,11 +4,7 @@ Thanks for helping improve QuotaHalo.
 
 ## Local Setup
 
-```bash
-swift build
-swift run QuotaHalo --print-quota
-swift run QuotaHalo
-```
+See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for the full development workflow.
 
 ## Pull Requests
 

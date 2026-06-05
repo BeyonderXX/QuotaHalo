@@ -93,3 +93,5 @@ For people landing from search, keep these visible near the top:
 - Weekly quota
 - No token storage
 - English/Chinese support
+
+Keep developer setup, build commands, release packaging, icon details, and fallback JSON examples in `docs/` so the root README stays focused on first-time users.
