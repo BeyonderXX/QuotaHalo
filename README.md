@@ -28,6 +28,8 @@ Keywords: `Codex usage`, `Codex quota`, `macOS widget`, `desktop widget`, `glass
 
 If macOS blocks the first launch because the app is unsigned, right-click the app and choose `Open`.
 
+If macOS says the app is damaged, the downloaded build was not signed and notarized for public distribution. See [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md).
+
 ## Login
 
 QuotaHalo uses your local Codex login. No API key is needed.
@@ -65,6 +67,7 @@ Read [docs/AUTHENTICATION.md](docs/AUTHENTICATION.md) for the full authenticatio
 
 - [No-terminal user flow](docs/NO_TERMINAL.md)
 - [Authentication](docs/AUTHENTICATION.md)
+- [Distribution and notarization](docs/DISTRIBUTION.md)
 - [Manual JSON fallback](docs/MANUAL_JSON.md)
 - [Developer guide](docs/DEVELOPMENT.md)
 - [Icon guide](docs/ICON_GUIDE.md)

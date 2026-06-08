@@ -28,6 +28,8 @@
 
 如果 macOS 因为未签名阻止首次打开，右键 app 选择 `Open`。
 
+如果 macOS 提示 app 已损坏，通常是下载的构建没有完成正式签名和 Apple 公证。见 [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md)。
+
 ## 登录
 
 QuotaHalo 使用你本机的 Codex 登录状态，不需要 API key。
@@ -65,6 +67,7 @@ QuotaHalo 刻意保持很小：
 
 - [不用命令的用户流程](docs/NO_TERMINAL.md)
 - [认证说明](docs/AUTHENTICATION.md)
+- [发布、签名和公证](docs/DISTRIBUTION.md)
 - [手动 JSON 回退](docs/MANUAL_JSON.md)
 - [开发者指南](docs/DEVELOPMENT.md)
 - [图标说明](docs/ICON_GUIDE.md)

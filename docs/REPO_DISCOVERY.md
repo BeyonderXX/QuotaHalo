@@ -60,6 +60,8 @@ Attach this asset:
 QuotaHalo.app.zip
 ```
 
+Before uploading the asset, sign and notarize it. See [docs/DISTRIBUTION.md](DISTRIBUTION.md).
+
 ## README First Screen
 
 The first screen should answer:

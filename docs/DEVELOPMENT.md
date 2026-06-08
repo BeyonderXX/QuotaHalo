@@ -94,6 +94,8 @@ Upload that file to GitHub Releases with the asset name:
 QuotaHalo.app.zip
 ```
 
+For public downloads, sign and notarize the app before publishing. See [docs/DISTRIBUTION.md](DISTRIBUTION.md).
+
 ## Optional Login Item
 
 Install QuotaHalo as a login item:
@@ -102,9 +104,9 @@ Install QuotaHalo as a login item:
 scripts/install-launch-agent.sh
 ```
 
-## Build Cache
+## Build Cache And Sandbox
 
-The build script keeps SwiftPM and clang caches inside `.build/` to avoid writing to user cache directories in restricted environments.
+The build script keeps SwiftPM and clang caches inside `.build/` to avoid writing to user cache directories in restricted environments. It also disables SwiftPM's inner sandbox, which can conflict with already-sandboxed build environments.
 
 ## Notes
 

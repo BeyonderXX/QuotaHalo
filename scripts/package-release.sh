@@ -5,9 +5,9 @@ ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 APP_DIR="$ROOT_DIR/dist/QuotaHalo.app"
 ZIP_PATH="$ROOT_DIR/dist/QuotaHalo.app.zip"
 
-if [[ ! -d "$APP_DIR" ]]; then
-  "$ROOT_DIR/scripts/build-app.sh" >/dev/null
-fi
+"$ROOT_DIR/scripts/build-app.sh" >/dev/null
+
+/usr/bin/codesign --verify --deep --strict --verbose=2 "$APP_DIR"
 
 cd "$ROOT_DIR/dist"
 rm -f "$ZIP_PATH"

@@ -29,6 +29,6 @@ The widget does not implement its own OpenAI login. It opens the official Codex 
 To make the no-terminal flow smooth for users:
 
 - Publish `QuotaHalo.app.zip` in GitHub Releases.
-- Prefer signing and notarizing the app.
+- Sign and notarize the app before publishing.
 - Include screenshots in the release notes.
 - Link to `README.md`, `README.zh-CN.md`, and `docs/AUTHENTICATION.md`.
