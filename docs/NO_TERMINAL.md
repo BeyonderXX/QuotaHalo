@@ -4,12 +4,20 @@ This document describes the intended non-developer flow.
 
 ## Install
 
-1. Download [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) from GitHub Releases.
+1. Download the latest [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) from GitHub Releases.
 2. Unzip it.
 3. Drag `QuotaHalo.app` to `Applications`.
 4. Double-click it.
 
 No Terminal command is required.
+
+Stable download URL:
+
+```text
+https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip
+```
+
+Do not use `untagged-*` release asset URLs. They are temporary GitHub asset paths, not public download addresses.
 
 ## Login
 

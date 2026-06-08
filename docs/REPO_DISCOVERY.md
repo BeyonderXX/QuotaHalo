@@ -32,6 +32,8 @@ Add a website link:
 https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip
 ```
 
+Use this stable latest-release URL instead of any `untagged-*` asset URL.
+
 Upload a social preview image:
 
 ```text

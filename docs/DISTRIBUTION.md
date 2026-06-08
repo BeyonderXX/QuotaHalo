@@ -15,6 +15,28 @@ The app may be blocked as damaged when:
 
 For public releases, use a real tag such as `v0.1.0`, attach `QuotaHalo.app.zip`, and publish a signed and notarized build.
 
+## Stable Download URL
+
+Use this public download address in README files, websites, and social posts:
+
+```text
+https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip
+```
+
+Do not share GitHub URLs containing `untagged-*`, such as:
+
+```text
+https://github.com/BeyonderXX/QuotaHalo/releases/download/untagged-.../QuotaHalo.app.zip
+```
+
+Those URLs are temporary release asset paths. They can disappear, point to a draft-like release, or keep serving an old build after a proper tagged release is published.
+
+For a fixed version, use a tagged release asset URL instead:
+
+```text
+https://github.com/BeyonderXX/QuotaHalo/releases/download/v0.1.0/QuotaHalo.app.zip
+```
+
 ## Build With Ad-Hoc Signing
 
 For local testing:

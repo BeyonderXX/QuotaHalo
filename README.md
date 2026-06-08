@@ -9,7 +9,7 @@
 
 It shows your **5-hour** and **weekly** Codex quota windows, including remaining percentage and reset time, without asking for API keys or storing OpenAI tokens.
 
-[Download QuotaHalo.app.zip](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) · [中文说明](README.zh-CN.md) · [Authentication](docs/AUTHENTICATION.md)
+[Download latest QuotaHalo.app.zip](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) · [中文说明](README.zh-CN.md) · [Authentication](docs/AUTHENTICATION.md)
 
 Keywords: `Codex usage`, `Codex quota`, `macOS widget`, `desktop widget`, `glass widget`, `ChatGPT Codex`, `OpenAI Codex`
 
@@ -21,7 +21,7 @@ Keywords: `Codex usage`, `Codex quota`, `macOS widget`, `desktop widget`, `glass
 
 ## Install
 
-1. Download [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip).
+1. Download the latest [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip).
 2. Unzip it.
 3. Drag `QuotaHalo.app` to `Applications`.
 4. Double-click `QuotaHalo.app`.
@@ -29,6 +29,8 @@ Keywords: `Codex usage`, `Codex quota`, `macOS widget`, `desktop widget`, `glass
 If macOS blocks the first launch because the app is unsigned, right-click the app and choose `Open`.
 
 If macOS says the app is damaged, the downloaded build was not signed and notarized for public distribution. See [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md).
+
+Use the stable download URL above. Do not share `untagged-*` GitHub release asset links.
 
 ## Login
 

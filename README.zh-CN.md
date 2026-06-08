@@ -9,7 +9,7 @@
 
 它会显示 **每 5 小时** 和 **每周** 两个 Codex 配额窗口，包括余量百分比和重置时间；不需要用户提供 API key，也不会保存 OpenAI token。
 
-[下载 QuotaHalo.app.zip](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) · [English README](README.md) · [认证说明](docs/AUTHENTICATION.md)
+[下载最新版 QuotaHalo.app.zip](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip) · [English README](README.md) · [认证说明](docs/AUTHENTICATION.md)
 
 关键词：`Codex usage`、`Codex quota`、`macOS widget`、`desktop widget`、`glass widget`、`ChatGPT Codex`、`OpenAI Codex`
 
@@ -21,7 +21,7 @@
 
 ## 安装
 
-1. 下载 [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip)。
+1. 下载最新版 [`QuotaHalo.app.zip`](https://github.com/BeyonderXX/QuotaHalo/releases/latest/download/QuotaHalo.app.zip)。
 2. 解压。
 3. 把 `QuotaHalo.app` 拖进 `Applications`。
 4. 双击 `QuotaHalo.app`。
@@ -29,6 +29,8 @@
 如果 macOS 因为未签名阻止首次打开，右键 app 选择 `Open`。
 
 如果 macOS 提示 app 已损坏，通常是下载的构建没有完成正式签名和 Apple 公证。见 [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md)。
+
+请使用上面的稳定下载地址，不要分享 `untagged-*` 这种 GitHub 临时 release asset 链接。
 
 ## 登录
 
